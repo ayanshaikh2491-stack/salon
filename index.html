@@ -3,40 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Salon Website</title>
+  <title>Salon Website - Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Salon Website</h1>
-    <p>Professional Salon Services</p>
+    <div class="container">
+      <h1>Elegant Salon</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <section class="services">
-    <h2>Our Services</h2>
-    <div class="service-list">
-      <div class="service">
-        <h3>Hair Cut &amp; Style</h3>
-        <p>Expert cutting and styling for all hair types.</p>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Beauty & Wellness</h2>
+      <p>Experience luxurious treatments tailored just for you.</p>
+      <a href="services.html" class="btn">Explore Services</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <div class="feature">
+        <h3>Expert Stylists</h3>
+        <p>Our team of professionals stays updated with the latest trends.</p>
       </div>
-      <div class="service">
-        <h3>Color &amp; Highlights</h3>
-        <p>Professional coloring services including highlights, balayage, and full color.</p>
+      <div class="feature">
+        <h3>Premium Products</h3>
+        <p>We use only high-quality, salon-grade products.</p>
       </div>
-      <div class="service">
-        <h3>Skincare Treatments</h3>
-        <p>Facials, peels, and moisturizing treatments for radiant skin.</p>
+      <div class="feature">
+        <h3>Relaxing Atmosphere</h3>
+        <p>Enjoy a serene environment designed for your comfort.</p>
       </div>
     </div>
   </section>
-  <section class="contact">
-    <h2>Contact Us</h2>
-    <p>Visit us or call for appointments.</p>
-    <p>Phone: (555) 123-4567</p>
-    <p>Email: info@salon.com</p>
-  </section>
+
   <footer>
-    <p>&copy; 2026 Salon Website. All rights reserved.</p>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Elegant Salon. All rights reserved.</p>
+    </div>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
